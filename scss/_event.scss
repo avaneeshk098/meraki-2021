@@ -1,24 +1,24 @@
-.event{
+.event {
     padding-left: 10%;
     padding-right: 10%;
     background-color: #170e26;
     padding-top: 88px;
-    
-    &__big-title{
+
+    &__big-title {
         font-family: 'Inter';
         font-weight: 900;
         text-align: center;
         font-size: 3em;
         color: #521eb3;
         background: linear-gradient(to top, lighten(#efd4ab, 15%),
-        #efd4ab, darken(#efd4ab, 15%));
+                #efd4ab, darken(#efd4ab, 15%));
         text-align: center;
         -webkit-text-fill-color: transparent;
         background-clip: content-box;
         -webkit-background-clip: text;
     }
 
-    &__subtitle{
+    &__subtitle {
         text-align: center;
         font-size: 1.3em;
         font-family: 'Inter';
@@ -27,7 +27,7 @@
         margin-top: 0.5rem;
     }
 
-    &__about{
+    &__about {
         text-align: center;
         margin-top: 2rem;
         margin-bottom: 2rem;
@@ -37,35 +37,37 @@
         font-size: 1.1em;
     }
 
-    &__guidelines{
+    &__guidelines {
         text-align: center;
         font-family: 'Inter';
         font-weight: 900;
         font-size: 2.5em;
         background: linear-gradient(to top, lighten(#efd4ab, 15%),
-        #efd4ab, darken(#efd4ab, 15%));
+                #efd4ab, darken(#efd4ab, 15%));
         text-align: center;
         -webkit-text-fill-color: transparent;
         background-clip: content-box;
         -webkit-background-clip: text;
     }
 
-    &__guidelines-list{
+    &__guidelines-list {
         margin-top: 2rem;
         margin-bottom: 2rem;
         list-style-type: circle;
         ;
         font-family: 'Inter';
         font-weight: 700;
-        li{
+
+        li {
             margin-bottom: 1rem;
         }
+
         color: lighten(#efd4ab, 0%);
-    }   
+    }
 }
 
-.event{
-    &__rubrics-title{
+.event {
+    &__rubrics-title {
         text-align: center;
         font-family: 'Inter';
         font-weight: 900;
@@ -73,39 +75,73 @@
         margin-bottom: 1rem;
         font-size: 2.5em;
         background: linear-gradient(to top, lighten(#efd4ab, 15%),
-        #efd4ab, darken(#efd4ab, 15%));
+                #efd4ab, darken(#efd4ab, 15%));
         text-align: center;
         -webkit-text-fill-color: transparent;
         background-clip: content-box;
         -webkit-background-clip: text;
     }
 
-    &__title{
+    &__title {
         margin-top: 1rem;
         color: #efd4ab;
         font-family: 'Inter';
         font-size: 1.5em;
         font-weight: 800;
     }
-    &__desc{
+
+    &__desc {
         margin-top: 0.5rem;
         font-family: 'Inter';
         color: lighten(#efd4ab, 10%);
         padding-bottom: 1rem;
     }
 
-    #desc{
+    #desc {
         padding-bottom: 3rem;
         text-align: center;
     }
+
+    &__contact {
+        font-family: 'Inter';
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__contact-desig {
+        color: #efd4ab;
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+
+    &__contact-name {
+        color: lighten(#efd4ab, 10%);
+        margin-top: 0.7rem;
+        font-size: 1.2em;
+    }
+
+    &__contact-email,
+    &__contact-number {
+        color: #efd4ab;
+        margin-top: 1rem;
+        font-size: 1.2em;
+        word-break: break-all;
+        text-align: center;
+    }
+
+    &__contact-email {
+        margin-bottom: 3rem;
+    }
 }
 
-#foote{
+#foote {
     padding-top: 2rem;
 }
 
-@media screen and (min-width: 767px){
-    .event{
+@media screen and (min-width: 767px) {
+    .event {
         padding-left: 25%;
         padding-right: 25%;
     }
