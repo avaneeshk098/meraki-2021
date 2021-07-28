@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
 @import 'event';
 @import 'register';
 
@@ -398,7 +398,15 @@ body {
     img {
         margin-bottom: 2rem;
         width: 80%;
+        height: auto;
         border: 2px solid white;
+    }
+
+    picture{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .committees__committee-item:hover .middle {

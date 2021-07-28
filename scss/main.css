@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap");
 .event {
   padding-left: 10%;
   padding-right: 10%;
@@ -197,7 +197,8 @@ a {
   text-align: center;
   margin-top: 2rem;
   position: relative;
-  font-family: "Raleway";
+  font-family: "Inter";
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 1.3em;
   -webkit-transition: all ease-in-out 500ms;
@@ -754,7 +755,24 @@ body {
 .committees img {
   margin-bottom: 2rem;
   width: 80%;
+  height: auto;
   border: 2px solid white;
+}
+
+.committees picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .committees .committees__committee-item:hover .middle {
