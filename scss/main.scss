@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;800;900&display=swap');
 @import 'event';
 @import 'register';
@@ -523,4 +524,25 @@ body {
         font-weight: 400;
         color: #521eb3;
     }
+
+    &__social-icon{
+        background-color: #521eb3;
+        color: #efd4ab;
+        font-size: 1.6em;
+        margin-top: 1rem; 
+        height: 42px;
+        width: 42px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0.5px;
+        transition: all ease-in-out 100ms;
+        border-radius: 100%;
+    }
+
+    &__social-icon:hover {
+        background-color: darken(#521eb3, 15%);
+        cursor: pointer;
+    }
 }
+
